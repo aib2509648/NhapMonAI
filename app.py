@@ -69,7 +69,7 @@ def render_quiz() -> None:
 
 def main() -> None:
     st.set_page_config(page_title="QuizAI", page_icon="📝")
-    st.title("Tạo đề trắc nghiệm - Tran Trung Ai")
+    st.title("Tạo đề trắc nghiệm - QuizAI")
 
     uploaded_file = st.file_uploader("Upload PDF", type=["pdf"])
     question_count = st.number_input(
